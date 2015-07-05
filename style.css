@@ -1,0 +1,293 @@
+body
+{
+	/*background-image: url("img/back.jpg");*/
+
+    height: auto;
+    background: -webkit-linear-gradient(lightgray, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(lightgray, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(lightgray, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(lightgray, black); /* Standard syntax (must be last) */
+}
+.mainbody
+{
+	/*background-image: url("img/back2.png");*/
+	height: auto;
+    background: -webkit-linear-gradient(black, gray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, gray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, gray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, gray); /* Standard syntax (must be last) */
+	margin: 0px 50px 0px 50px;
+	border-radius: 10px 10px 10px 10px;
+	padding-bottom: 40px;
+
+	
+}
+
+body header form
+{
+	float: right;
+	
+	margin: 10px 50px 0px 0px;
+
+	
+}
+
+body header form input[type=search]
+{	
+	border-radius: 10px 0px 0px 10px;
+	
+
+
+}
+body header form input[type=submit]
+{	
+	border-radius: 0px 10px 10px 0px;
+	
+}
+
+.bigNav
+{	float: right;
+	margin-top: 15px;
+	padding-right: 50px;
+	 
+}
+.smallNav
+{	
+	float: right;
+	margin-top: -65px;
+	margin-right: 50px
+	
+	 
+}
+.bigNav a
+{	
+	color: black;
+	font-size: 14px;
+}
+
+.smallNav a
+{	
+	color: black;
+	font-size: 10px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.logo
+{
+	font-size: 3em;
+	padding-left: 50px;
+	font-family: -webkit-body;
+
+}
+body header div h6
+{
+	padding-left: 180px;
+	margin-top: -25px;
+	
+	font-family: -webkit-body;
+
+}
+
+body section nav a
+{
+
+	text-decoration: none;
+	font-size: 24px;	
+	color: white;
+	padding-left: 5%;
+
+
+}
+body section nav a:hover
+{
+	color: black;
+}
+.bigNav a:hover
+{
+	color: rgb(128,128,128);
+}
+
+.smallNav a:hover
+{
+	color: rgb(128,128,128);
+}
+
+
+body section nav
+{
+
+	background-color: blue !important;
+	width: 100% !important;
+	height: 50px !important;
+	padding-left: 30px;
+	border-radius: 10px 10px 0px 0px !important;
+
+}
+.navbar-inverse .navbar-nav li a {
+
+	color: white !important;
+	background-color: blue;
+	padding-bottom: 14px;
+	font-size: 16px;
+	box-shadow: inset 4px 4px 30px darkblue;
+
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+
+	color: white !important;
+	background-color: rgb(19, 152, 234);
+	font-size: 18px;
+
+}
+.navbar-inverse .navbar-nav li a:active {
+
+	color: white !important;
+	background-color: darkblue;
+	font-size: 16px;
+
+}
+.navbar-inverse .navbar-nav li a:visited {
+
+	color: white !important;
+	background-color: blue;
+	font-size: 16px;
+
+}
+.navbar-inverse .navbar-nav li a:link {
+
+	background-color: darkblue;
+
+}
+/*
+.navbar-inverse .navbar-nav li a:after
+{
+	content: '|';
+	padding: 3px;
+	
+}
+*/
+.navbar-inverse .navbar-brand
+ {
+  color: #FFFFFF;
+  font-size: x-large;
+}
+
+
+{
+	background-color: blue;
+	width: 100%;
+	height: 50px;
+	padding-top: 15px;
+	border-radius: 10px 10px 0px 0px 
+	
+}
+
+
+.maintext
+{
+	margin-top: 10px;
+
+}
+.col-md-4
+{
+	
+}
+.mainpic
+{
+	max-width: 400px;
+		
+}
+.mainp
+{
+	color:white;
+	font-size:14px;
+}
+
+
+.secondpart
+{
+	overflow: hidden;
+	width: 90%;
+	margin: -20px 5% ;
+	
+	margin-top: 290px;
+	background-color: white !important;
+	border-radius: 5px 5px 5px 5px;
+
+
+
+}
+
+.secondpart article p a
+{
+	color: blue;
+}
+.secondpart article p a:hover
+{
+	color: darkblue;
+}
+.secondpart article h4
+{
+	font-size: 18px;
+	background-color: blue;
+	color: white;
+	padding-left: 16%;
+	border-radius: 10px 10px 10px 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: inset 4px 4px 30px darkblue;
+	
+	
+}
+button
+{
+	margin-top: 0px;
+	
+}
+.btn-default
+{
+	margin-bottom: 20px;
+}
+.submit
+{
+	background: url(img/go.png);
+	width: 33px;
+	height: 32px;
+	margin-left: -5;
+
+}
+
+.lastp2
+{
+	background-color: lightcyan;
+  height: 150px;
+ 
+  text-align: center;
+  margin-top: 0px;
+  border-radius: 0 0 10px 10px;
+}
+.container
+{
+	width: 100%;
+	margin-right: -10px;
+	margin-left: -10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+footer
+{
+	  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  width: 300px;
+  text-align: center;
+  margin-top: 20px;
+}
