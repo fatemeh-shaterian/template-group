@@ -35,9 +35,6 @@ body header form
 body header form input[type=search]
 {	
 	border-radius: 10px 0px 0px 10px;
-	
-
-
 }
 body header form input[type=submit]
 {	
@@ -291,3 +288,5 @@ footer
   text-align: center;
   margin-top: 20px;
 }
+
+
